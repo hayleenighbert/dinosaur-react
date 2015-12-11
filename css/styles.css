@@ -1,0 +1,88 @@
+h1{
+	text-align: center;
+	font-family: 'Varela Round', sans-serif;
+	background-color: black;
+	margin: 0;
+	padding: 20px;
+	color: green;
+	z-index: 50;
+}
+
+body{
+	background-color: black;
+}
+html{
+	margin: 0;
+}
+.background{
+	width: 100%;
+	position: absolute;
+}
+
+#velociraptor{
+	position: absolute;
+	top: 200px;
+	left: 400px;
+	z-index: 100;
+}
+#pterodactyl{
+	position: absolute;
+	top: 100px;
+	left: 800px;
+	z-index: 100;
+}
+#allosaurus{
+	position: absolute;
+	top: 200px;
+	left: 80%;
+	z-index: 100;
+}
+#velociraptor2{
+	position: absolute;
+	top: 200px;
+	left: 80%;
+	z-index: 100;
+}
+.healthbar{
+	height: 10px;
+	width: 120px;
+	background: red;
+	z-index: 50;
+}
+
+#velo-hover{
+	background-color: red;
+	text-align: center;
+	width: 100px;
+	height: 50px;
+	color: white;
+	border: 4px solid black;
+
+}
+#ptero-hover{
+	background-color: red;
+	text-align: center;
+	width: 100px;
+	height: 50px;
+	color: white;
+	border: 4px solid black;
+}
+#allo-hover{
+	background-color: red;
+	text-align: center;
+	width: 100px;
+	height: 50px;
+	color: white;
+	border: 4px solid black;
+
+}
+#velo2-hover{
+	background-color: red;
+	text-align: center;
+	width: 100px;
+	height: 50px;
+	color: white;
+	border: 4px solid black;
+
+}
+
